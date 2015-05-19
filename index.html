@@ -22,16 +22,17 @@ function search_array(array1, array2){
 var temp_array = [];
 for(var i=0; i < array1.length; i++) 
   for(var j=0; j < array2.length; j++) 
-      if(array1[i] = array2[j]) {
+      if(array1[i] == array2[j]) {
       temp_array.push(array1[i]);
+          console.log('temp_array:' + temp_array); 
       
       };
    
      
   
-    output.push(temp_array);
+    output = temp_array;
     
-console.log("This is the items that match in the 2 array" + output);  //outputs
+console.log("This is the items that match in the 2 array " + output);  //outputs
 
 }
 
