@@ -1,18 +1,18 @@
-Create a function, add_arrays(), that does the following:
+Create a function, find_factors(), that does the following:
+- Find all of the factors of a given number
 
-#### Input: 2 arrays of equal size 
-- first_array, an array of numbers
-- needle array, an array of numbers
+#### Input: 
+- factor_number: a number to find the factors of
 
 #### Output: 
-- output array, which has all values from the first array added to the values from the second array
+- output array, an array of all numbers that are a factor of factor_number
 
 #### Example:
-var first_array = [3,-5,15,4];
-var second_array = [3,18,-5,-4]
+var factor_number = 10;
 
-
-output = add_arrays(first_array,second_array);
-console.log(output); //outputs [6,13,10,0];
+output = find_factors(factor_number);
+console.log(output); //outputs [1,2,5,10];
 
 #### Put your solution in answer.js
+
+- hint: use modulo to determine if a number is evenly divisible by another number
