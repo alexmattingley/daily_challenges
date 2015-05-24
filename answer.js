@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <title>daily challenges</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <style>
-    </style>
-</head>
-
-<body>
-    <script>
-    $(document).ready(function() {
+$(document).ready(function() {
         //DAILY CHALLENGE 1
         var haystack = ['red', 'chair', 'pink', 'table', 'gray', 'green', 'tan'];
         var needle = ['fridge', 'chair', 'desk', 'table', 'couch'];
@@ -77,11 +64,8 @@
 
         output = find_factors(factor_number);
         console.log(output);
-        //IP
+
+    //IP
 }
 
     }); //don't touch!
-    </script>
-</body>
-
-</html>
