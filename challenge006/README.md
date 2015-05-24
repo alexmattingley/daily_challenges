@@ -2,7 +2,7 @@ Create a single loop that simultaneously counts up on one variable, while counti
 
 #### Put your solution in answer.js
 
-- hint: You can have multiple initiators, conditionals, and incrementers/decrementers in the same for loop.  For example:
+- hint: You can have multiple initiators, conditionals, and incrementers/decrementers in the same <em>for</em> loop.  For example:
 
 ```
 <pre>
