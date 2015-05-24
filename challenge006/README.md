@@ -4,10 +4,10 @@ Create a single loop that simultaneously counts up on one variable, while counti
 
 - hint: You can have multiple initiators, conditionals, and incrementers/decrementers in the same for loop.  For example:
 
-'''
+```
 <pre>
 for(<initiator 1>,<initiator 2>; <check 1>,<check2>; <increment 1>,<increment 2>){
 	//do work
 }
 </pre>
-'''
+```
