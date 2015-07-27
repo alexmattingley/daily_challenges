@@ -17,8 +17,6 @@ var second_array = [3,18,-5,-4]
 
 output = add_arrays(first_array,second_array);
 console.log(output); //outputs [6,13,10,0];
-
-#### Put your solution in answer.js
 *********************/
 
 var first_array = [3,-5,15,4];
