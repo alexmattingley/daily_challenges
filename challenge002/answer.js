@@ -25,14 +25,14 @@ var first_array = [3,-5,15,4];
 var second_array = [3,18,-5,-4];
 var output_array = [];
 
-function add_arrays() {
+function add_arrays(x_array,y_array) {
 
-	for(var i = 0; i < 4; i++) {
-		output_array.push(first_array[i]);
-		output_array.push(second_array[i]);
+	for(var i = 0; i < x_array.length; i++) {
+		output_array.push(x_array[i]);
+		output_array.push(y_array[i]);
 	}
 	console.log(output_array);
 }
 
-add_arrays();
+add_arrays(first_array,second_array);
 
