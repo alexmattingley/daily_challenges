@@ -1,7 +1,5 @@
-function divide(num1, num2){
-    var output;
-    output = num1/num2;
-    console.log(output);
+function factor_test(num1){
+    console.log(num1 % 1 === 0);
 }
 
-divide(4,2);
+factor_test(10.5);
