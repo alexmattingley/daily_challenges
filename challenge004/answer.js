@@ -7,12 +7,12 @@ function int_test(num1){
 
 //int_test(10.5);
 
+var equals; //need a better var name
 
-
-function factor_test(num1){
-    for(var i = 1; i <= num1; i++){
-        var equals; //need a better var name
-        equals = num1/i;
+function factor_test(num2){
+    for(var i = 1; i <= num2; i++){
+        equals = num2/i;
+        console.log(equals);
         if(int_test(equals)){
             output.push(equals);
         }
